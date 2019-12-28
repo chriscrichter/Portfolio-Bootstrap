@@ -1,0 +1,57 @@
+/*general*/
+.thumbnail {
+	border: none;
+	box-shadow: none;
+}
+
+
+/*sidebar*/
+.social {
+	width: 62px;
+  	height: 62px;
+}
+
+/*about page*/
+#bio-image {
+	height: 200px;
+	width: 200px;
+	padding-right: 10px;
+}
+
+
+/*portfolio page*/
+.work {
+	position: relative;
+	margin: 20px 0 25px;
+	width: 100%;
+}
+
+.placeholder-img {
+	opacity: .7;
+}
+
+.caption h3 {
+	position: absolute;
+	bottom: 25px;
+	padding: 10px;
+	text-align: center;
+	color:#fff;
+	background: #2c3e50;
+	opacity:.8;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 18px;
+	height: 70px;
+	font-size: 12px;
+	background-color: #666666;
+	color: #FFFFFF;
+	text-align: center;
+	border-top: 8px solid #4aaaa5;
+	border-bottom: none;
+	bottom: 0;
+}
