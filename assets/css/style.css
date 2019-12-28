@@ -11,14 +11,18 @@
 }
 
 .placeholder-img {
+	height: 130px;
+	width: 230px;
 	opacity: .7;
 }
 
 .placeholder-img:hover {
-  transform: scale(1.1);
-  opacity:.9;
-  transition: 0.4s;
-  border: 1pt;
+	height: 130px;
+	width: 230px;
+	transform: scale(1.1);
+	opacity:.9;
+	transition: 0.4s;
+	border: 1pt;
 }
 
 .caption h3 {
@@ -38,8 +42,12 @@ h3.panel-title {
 	font-size: 16pt;
 }
 
+#panel-head {
+	background-color: #729dbf;
+}
+
 .navbar-inverse {
-	background-color:#327bb7;
+	background-color: #4d6e9b;
 	border-color: #D3D3D3;
 	color: #ffffff;
 }
@@ -88,7 +96,7 @@ body {
 }
 
 a#button-name:hover {
-	color: #9400D3;
+	color: #99ced2;
 	transform: scale(1.1);
 	font-family: 'Raleway', sans-serif, Helvetica;
 	font-size: 16pt;
