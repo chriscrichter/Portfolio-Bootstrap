@@ -1,7 +1,8 @@
 #bio-image {
-	height: 200px;
-	width: 200px;
-	padding-right: 10px;
+	height: 250px;
+	width: 250px;
+	padding-right: 15px;
+	padding-bottom: 10px;
 }
 
 .thumbnail {
@@ -22,6 +23,7 @@
 
 .caption h3 {
 	position: absolute;
+	font-family: 'Raleway', sans-serif;
 	font-size: 14pt;
 	bottom: 25px;
 	padding: 10px;
@@ -44,13 +46,16 @@
 
 #logo-name {
 	color: #ffffff;
+	font-family: 'Raleway', sans-serif;	
 	font-size: 20pt;
+	font-weight: bold;
 	margin-left: 8pt;
 	margin-top: 4pt;
 }
 
 #button-name {
 	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
 	font-size: 15pt;
 	margin-left: 20pt;
 }
@@ -62,13 +67,15 @@
 
 body {
 	color: #000000;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
 	background-image: url("../images/background.png");
 }
 
 a#button-name:hover {
 	color: #9400D3;
 	transform: scale(1.1);
+	font-family: 'Raleway', sans-serif;
 	font-size: 16pt;
 	margin-top: 8pt;
 }
