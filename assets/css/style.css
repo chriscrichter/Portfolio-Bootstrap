@@ -1,6 +1,6 @@
 #bio-image {
-	height: 250px;
-	width: 250px;
+	height: 230px;
+	width: 210px;
 	padding-right: 15px;
 	padding-bottom: 10px;
 }
@@ -82,6 +82,8 @@ body {
 	color: #000000;
 	font-family: 'Raleway', sans-serif, Helvetica;
 	font-size: 12pt;
+	hyphens: auto;
+	word-wrap: normal;
 	background-image: url("../images/background.png");
 }
 
