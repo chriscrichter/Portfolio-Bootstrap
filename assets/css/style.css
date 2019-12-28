@@ -1,23 +1,12 @@
-/*general*/
-.thumbnail {
-	border: none;
-	box-shadow: none;
-}
-
-
-/*about page*/
 #bio-image {
 	height: 200px;
 	width: 200px;
 	padding-right: 10px;
 }
 
-
-/*portfolio page*/
-.work {
-	position: relative;
-	margin: 20px 0 25px;
-	width: 100%;
+.thumbnail {
+	border: none;
+	box-shadow: none;
 }
 
 .placeholder-img {
@@ -44,23 +33,31 @@
 
 .navbar-inverse {
 	background-color:#327bb7;
-	border-color: lightgrey;
+	border-color: #D3D3D3;
 	color: #ffffff;
-     }
+}
      
+.navbar-right {
+	margin-right: 30pt;
+	margin-top: 12pt;
+}   
 
 #logo-name {
 	color: #ffffff;
-	font-size: 18pt;
+	font-size: 20pt;
+	margin-left: 8pt;
+	margin-top: 4pt;
 }
 
 #button-name {
 	color: #ffffff;
-	font-size: 14pt;
+	font-size: 15pt;
 	margin-left: 20pt;
 }
+
 .container-fluid  {
 	color: #ffffff;
+	padding-bottom: 8px;
 }
 
 body {
@@ -69,15 +66,12 @@ body {
 	background-image: url("../images/background.png");
 }
 
-.navbar-right {
-	margin-right: 40pt;
-	margin-top: 10pt;
+a#button-name:hover {
+	color: #9400D3;
+	transform: scale(1.1);
+	font-size: 16pt;
+	margin-top: 8pt;
 }
-
-.nav-link:hover {
-  color: red;
-}
-
 
 
 /*
