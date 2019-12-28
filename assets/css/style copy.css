@@ -24,13 +24,6 @@
 	opacity: .7;
 }
 
-.placeholder-img:hover {
-  transform: scale(1.1);
-  opacity:.9;
-  transition: 0.4s;
-  border: 1pt;
-}
-
 .caption h3 {
 	position: absolute;
 	font-size: 14pt;
@@ -54,11 +47,6 @@
 	font-size: 18pt;
 }
 
-#button-name {
-	color: #ffffff;
-	font-size: 14pt;
-	margin-left: 20pt;
-}
 .container-fluid  {
 	color: #ffffff;
 }
@@ -70,14 +58,29 @@ body {
 }
 
 .navbar-right {
-	margin-right: 40pt;
+	color: white;
+	margin-right: 30pt;
 	margin-top: 10pt;
+	font-size: 14pt;
+
+a:hover, input[type=submit]:hover {
+  color: white;
 }
 
-.nav-link:hover {
-  color: red;
+a {
+	color: white;
+	margin-right: 5%;
 }
 
+#nav {
+	color: #ffffff;
+	font-size: 14pt;
+}
+
+#nav-link {
+	color: #ffffff;
+	font-size: 14pt;
+}
 
 
 /*
@@ -87,7 +90,16 @@ a {
 	margin-top: 10pt;
 	font-size: 14pt;
 }
+*/
 
+.placeholder-img:hover {
+  transform: scale(1.1);
+  opacity:.9;
+  transition: 0.4s;
+  border: 1pt;
+}
+
+/*
 .nav {
 	float: left;
 	color: #ffffff;

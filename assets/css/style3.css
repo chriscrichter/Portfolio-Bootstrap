@@ -24,13 +24,6 @@
 	opacity: .7;
 }
 
-.placeholder-img:hover {
-  transform: scale(1.1);
-  opacity:.9;
-  transition: 0.4s;
-  border: 1pt;
-}
-
 .caption h3 {
 	position: absolute;
 	font-size: 14pt;
@@ -54,11 +47,6 @@
 	font-size: 18pt;
 }
 
-#button-name {
-	color: #ffffff;
-	font-size: 14pt;
-	margin-left: 20pt;
-}
 .container-fluid  {
 	color: #ffffff;
 }
@@ -69,25 +57,83 @@ body {
 	background-image: url("../images/background.png");
 }
 
-.navbar-right {
-	margin-right: 40pt;
-	margin-top: 10pt;
+/* selectors for nav content */
+.nav {
+	height: 20px;
+	display: flex;
+	background-color: white;
+	justify-content: flex-end;
 }
 
-.nav-link:hover {
-  color: red;
+.navbar.nav {
+	background: steelblue;
+	height: 100%;
+	padding: 0px 15px;
+	transition: all 0.2s linear;
 }
 
+.nav_link {
+	background: grey;
+	height: 100%;
+	padding: 0px 15px;
+	transition: all 0.2s linear;
+}
+
+.nav_link:hover {
+	background: #efefef;
+}
+
+.nav_vertical_bar {
+	background: #efefef;
+	width: 1px; 
+	height: 100%;
+}
 
 
 /*
+.navbar-right {
+	color: white;
+	margin-right: 30pt;
+	margin-top: 10pt;
+	font-size: 14pt;
+
+a:hover, input[type=submit]:hover {
+  color: white;
+}
+
+a {
+	color: white;
+	margin-right: 5%;
+}
+
+#nav {
+	color: #ffffff;
+	font-size: 14pt;
+}
+
+#nav-link {
+	color: #ffffff;
+	font-size: 14pt;
+}
+
+
+
 a {
 	color: white;
 	margin-right: 30pt;
 	margin-top: 10pt;
 	font-size: 14pt;
 }
+*/
 
+.placeholder-img:hover {
+  transform: scale(1.1);
+  opacity:.9;
+  transition: 0.4s;
+  border: 1pt;
+}
+
+/*
 .nav {
 	float: left;
 	color: #ffffff;
